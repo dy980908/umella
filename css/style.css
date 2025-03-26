@@ -1137,20 +1137,11 @@ body{
 }
 .new{
     position: absolute;
-    top: 90px;
-    left: 140px;
-    animation: new 1.8s linear infinite;
+    top: 91px;
+    left: 139px;
 }
-@keyframes new{
-    0%{     
-        transform: translateY(0px);         
-    }
-    50%{
-        transform: translate(-3px,3px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
+.new:hover{
+    opacity: 60%;
 }
 .support{
     display: flex;
