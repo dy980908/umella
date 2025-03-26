@@ -231,6 +231,7 @@ body{
 }
 .title{
     font-family: Nearo Rounded;
+    src: url(../font/nearoroundedbold-yw62z.ttf);
     font-weight: bold;
     color: #333;
     font-size: 28px;
@@ -326,6 +327,7 @@ body{
 }
 .cptext_box h1{
     font-family: Nearo Rounded;
+    src: url(../font/nearoroundedsemibold-1g70m.ttf);
     font-weight: 700;
     font-size: 40px;
     letter-spacing: -2px;
@@ -355,6 +357,7 @@ body{
 }
 .cptext_box span{
     font-family: Nearo Rounded;
+    src: url(../font/nearoroundedmedium-lgdzq.ttf);
 }
 /* company e */
 #sale_wrap{
@@ -618,6 +621,7 @@ body{
 }
 .title2{
     font-family: Nearo Rounded;
+    src: url(../font/nearoroundedbold-yw62z.ttf);
     font-weight: bold;
     color: #333;
     font-size: 28px;
@@ -1212,6 +1216,7 @@ body{
 }
 .support li h2 span{
     font-family: Nearo Rounded;
+    src: url(../font/nearoroundedsemibold-1g70m.ttf);
 }
 .sub_p2{
     width: 380px;
