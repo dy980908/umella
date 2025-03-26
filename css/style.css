@@ -31,7 +31,21 @@ body{
 #main_banner {
     cursor: url(../img/mouse_on.png) 0 0, auto !important;
 }
-
+@font-face {
+    font-family: 'Nearo_b';
+    src: url(../font/nearoroundedbold-yw62z.ttf) format('opentype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nearo_s';
+    src: url(../font/nearoroundedsemibold-1g70m.ttf) format('opentype');
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nearo_m';
+    src: url(../font/nearoroundedmedium-lgdzq.ttf) format('opentype');
+    font-style: normal;
+}
 #main_banner {
     pointer-events: auto;
 }
@@ -230,8 +244,7 @@ body{
     z-index: 3;
 }
 .title{
-    font-family: Nearo Rounded;
-    src: url(../font/nearoroundedbold-yw62z.ttf);
+    font-family: 'Nearo_b';
     font-weight: bold;
     color: #333;
     font-size: 28px;
@@ -326,8 +339,7 @@ body{
     text-align: left;
 }
 .cptext_box h1{
-    font-family: Nearo Rounded;
-    src: url(../font/nearoroundedsemibold-1g70m.ttf);
+    font-family: 'Nearo_s';
     font-weight: 700;
     font-size: 40px;
     letter-spacing: -2px;
@@ -356,8 +368,7 @@ body{
     line-height: 28px;
 }
 .cptext_box span{
-    font-family: Nearo Rounded;
-    src: url(../font/nearoroundedmedium-lgdzq.ttf);
+    font-family: 'Nearo_m';
 }
 /* company e */
 #sale_wrap{
@@ -620,8 +631,7 @@ body{
     z-index: 1;
 }
 .title2{
-    font-family: Nearo Rounded;
-    src: url(../font/nearoroundedbold-yw62z.ttf);
+    font-family: 'Nearo_b';
     font-weight: bold;
     color: #333;
     font-size: 28px;
@@ -1215,8 +1225,7 @@ body{
     box-sizing: border-box;
 }
 .support li h2 span{
-    font-family: Nearo Rounded;
-    src: url(../font/nearoroundedsemibold-1g70m.ttf);
+    font-family: 'Nearo_s';
 }
 .sub_p2{
     width: 380px;
