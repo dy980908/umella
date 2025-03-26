@@ -1133,6 +1133,24 @@ body{
     border-top: 3px solid #6663DF;
     box-sizing: border-box;
     padding: 100px 0;
+    position: relative;
+}
+.new{
+    position: absolute;
+    top: 90px;
+    left: 140px;
+    animation: new 1.8s linear infinite;
+}
+@keyframes new{
+    0%{     
+        transform: translateY(0px);         
+    }
+    50%{
+        transform: translate(-3px,3px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 .support{
     display: flex;
