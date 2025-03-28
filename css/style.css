@@ -245,9 +245,11 @@ body{
 }
 .title{
     font-family: 'Nearo_b';
-    font-weight: 700;
+    font-weight: normal;
     color: #333;
     font-size: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .title a{
     display: block;
