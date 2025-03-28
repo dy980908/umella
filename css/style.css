@@ -1261,7 +1261,6 @@ body{
     font-family: 'Nearo_s';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    display: block;
 }
 .sub_p2{
     width: 380px;
