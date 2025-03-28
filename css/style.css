@@ -38,42 +38,16 @@ body{
     src: url(../font/nearoroundedbold-yw62z.ttf) format('opentype');
     font-style: normal;
      /* Prevent font scaling in landscape */
-
-     -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
-
-     -moz-text-size-adjust: none; /*Firefox*/
-
-     -ms-text-size-adjust: none;  /*Ie*/
-
-     -o-text-size-adjust: none; /*old versions of Opera*/
 }
 @font-face {
     font-family: 'Nearo_s';
     src: url(../font/nearoroundedsemibold-1g70m.ttf) format('opentype');
     font-style: normal;
-     /* Prevent font scaling in landscape */
-
-     -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
-
-     -moz-text-size-adjust: none; /*Firefox*/
-
-     -ms-text-size-adjust: none;  /*Ie*/
-
-     -o-text-size-adjust: none; /*old versions of Opera*/
 }
 @font-face {
     font-family: 'Nearo_m';
     src: url(../font/nearoroundedmedium-lgdzq.ttf) format('opentype');
     font-style: normal;
-     /* Prevent font scaling in landscape */
-
-     -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
-
-     -moz-text-size-adjust: none; /*Firefox*/
-
-     -ms-text-size-adjust: none;  /*Ie*/
-
-     -o-text-size-adjust: none; /*old versions of Opera*/
 }
 #main_banner {
     pointer-events: auto;
@@ -278,6 +252,10 @@ body{
     font-size: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+    -moz-text-size-adjust: none; /*Firefox*/
+    -ms-text-size-adjust: none;  /*Ie*/
+    -o-text-size-adjust: none; /*old versions of Opera*/
 }
 .title a{
     display: block;
@@ -661,6 +639,10 @@ body{
     font-size: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+    -moz-text-size-adjust: none; /*Firefox*/
+    -ms-text-size-adjust: none;  /*Ie*/
+    -o-text-size-adjust: none; /*old versions of Opera*/
     display: block;
 }
 .title2 a{
@@ -1261,6 +1243,10 @@ body{
     font-family: 'Nearo_s';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+    -moz-text-size-adjust: none; /*Firefox*/
+    -ms-text-size-adjust: none;  /*Ie*/
+    -o-text-size-adjust: none; /*old versions of Opera*/
 }
 .sub_p2{
     width: 380px;
