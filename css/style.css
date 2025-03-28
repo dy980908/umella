@@ -245,20 +245,17 @@ body{
 }
 .title{
     font-family: 'Nearo_b';
-    font-weight: 600;
+    font-weight: 700;
     color: #333;
-    font-size: 28px;
-    transition-duration:0.5s;
+    font-size: 30px;
 }
 .title a{
     display: block;
-    transform:translateY(0px);
     transition-duration:0.5s;
     width: 330px;
 }
 .title_a:hover{
     color: #6663DF;
-    transform:translateY(-20px);
     transition-duration:0.5s;
 }
 .c1{
@@ -629,14 +626,12 @@ body{
 }
 .title2{
     font-family: 'Nearo_b';
-    font-weight: 600;
+    font-weight: 700;
     color: #333;
-    font-size: 28px;
-    transition-duration:0.5s;
+    font-size: 30px;
 }
 .title2 a{
     display: block;
-    transform:translateY(0px);
     transition-duration:0.5s;
     width: 330px;
     margin: 0 auto;
@@ -644,7 +639,6 @@ body{
 }
 .title2_a:hover{
     color: #6663DF;
-    transform:translateY(-20px);
     transition-duration:0.5s;
 }
 #section1{
