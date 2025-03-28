@@ -633,6 +633,7 @@ body{
     font-size: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    display: block;
 }
 .title2 a{
     display: block;
@@ -641,7 +642,7 @@ body{
     margin: 0 auto;
     padding-bottom: 8px;
 }
-.title2_a:hover{
+.title2 a:hover{
     color: #6663DF;
     transition-duration:0.5s;
 }
@@ -957,8 +958,7 @@ body{
 }
 .review{
     padding-top: 30px;
-    padding-left: 17px;
-    
+    padding-left: 17px;   
 }
 .review h4{
     font-weight: 700;
