@@ -26,15 +26,6 @@ body{
     font-size: 12px;
     font-family: 'Pretendard-Regular';
     src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-     /* Prevent font scaling in landscape */
-
-     -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
-
-     -moz-text-size-adjust: none; /*Firefox*/
-
-     -ms-text-size-adjust: none;  /*Ie*/
-
-     -o-text-size-adjust: none; /*old versions of Opera*/
 }
 .swiper-pagination,
 .swiper-button-prev,
@@ -1270,6 +1261,7 @@ body{
     font-family: 'Nearo_s';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    display: block;
 }
 .sub_p2{
     width: 380px;
@@ -1337,14 +1329,14 @@ body{
     box-sizing: border-box;
     margin-top: 67px;
 }
-.app_box{
-    display: flex;
-    justify-content: space-between;
-}
 .qr img{
     height: 120px;
     padding-bottom: 5px;
     box-sizing: border-box;
+}
+.app_box{
+    display: flex;
+    justify-content: space-between;
 }
 .qr{
     margin-right: 72px;
