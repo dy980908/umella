@@ -5,14 +5,13 @@ $(function() {
   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
   if (target.length) {
   $('html, body').animate({
-  scrollTop: target.offset().top
+  scrollTop: target.offset().top -90
   }, 500);
   return false;
   }
   }
   });
   });
-  // gnb e
   $(function(){
     $(".submenu").hide();
     $(".gnb>li").mouseenter(function(){
@@ -22,6 +21,7 @@ $(function() {
         $(this).children(".submenu").stop().slideUp();
     });
 });
+  // gnb e
 var swiper = new Swiper(".mb", {
         pagination: {
         el: ".swiper-pagination",
