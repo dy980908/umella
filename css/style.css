@@ -26,6 +26,15 @@ body{
     font-size: 12px;
     font-family: 'Pretendard-Regular';
     src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+     /* Prevent font scaling in landscape */
+
+     -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+
+     -moz-text-size-adjust: none; /*Firefox*/
+
+     -ms-text-size-adjust: none;  /*Ie*/
+
+     -o-text-size-adjust: none; /*old versions of Opera*/
 }
 .swiper-pagination,
 .swiper-button-prev,
@@ -37,16 +46,43 @@ body{
     font-family: 'Nearo_b';
     src: url(../font/nearoroundedbold-yw62z.ttf) format('opentype');
     font-style: normal;
+     /* Prevent font scaling in landscape */
+
+     -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+
+     -moz-text-size-adjust: none; /*Firefox*/
+
+     -ms-text-size-adjust: none;  /*Ie*/
+
+     -o-text-size-adjust: none; /*old versions of Opera*/
 }
 @font-face {
     font-family: 'Nearo_s';
     src: url(../font/nearoroundedsemibold-1g70m.ttf) format('opentype');
     font-style: normal;
+     /* Prevent font scaling in landscape */
+
+     -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+
+     -moz-text-size-adjust: none; /*Firefox*/
+
+     -ms-text-size-adjust: none;  /*Ie*/
+
+     -o-text-size-adjust: none; /*old versions of Opera*/
 }
 @font-face {
     font-family: 'Nearo_m';
     src: url(../font/nearoroundedmedium-lgdzq.ttf) format('opentype');
     font-style: normal;
+     /* Prevent font scaling in landscape */
+
+     -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+
+     -moz-text-size-adjust: none; /*Firefox*/
+
+     -ms-text-size-adjust: none;  /*Ie*/
+
+     -o-text-size-adjust: none; /*old versions of Opera*/
 }
 #main_banner {
     pointer-events: auto;
@@ -606,7 +642,7 @@ body{
 }
 .time a span{
     color: #333;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 35px;
 }
@@ -714,7 +750,7 @@ body{
 .contents li p a{
     display: inline-block;
     color: #666;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 480;
     padding-top: 15px;
     transition-duration: 0.6s;
@@ -731,7 +767,7 @@ body{
 }
 .contents li h4 a{
     color: #333;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 25px;
     transition-duration: 0.6s;
