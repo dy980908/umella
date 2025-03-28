@@ -628,9 +628,11 @@ body{
 }
 .title2{
     font-family: 'Nearo_b';
-    font-weight: 700;
+    font-weight: normal;
     color: #333;
     font-size: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .title2 a{
     display: block;
@@ -1229,6 +1231,8 @@ body{
 }
 .support li h2 span{
     font-family: 'Nearo_s';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .sub_p2{
     width: 380px;
