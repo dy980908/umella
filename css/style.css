@@ -20,12 +20,24 @@ a:active{
     margin: 0 auto;
     box-sizing: border-box;
 }
-body{
+/* body{
     cursor: url(../img/mouse_on.png) 0 0,auto;
     z-index: 9999;
     font-size: 12px;
     font-family: 'Pretendard-Regular';
     src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+} */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    font-family: 'Pretendard-Regular', sans-serif;
+    font-size: 12px;
+    cursor: url(../img/mouse_on.png) 0 0, auto;
+    z-index: 9999;
 }
 .swiper-pagination,
 .swiper-button-prev,
@@ -37,7 +49,6 @@ body{
     font-family: 'Nearo_b';
     src: url(../font/nearoroundedbold-yw62z.ttf) format('opentype');
     font-style: normal;
-     /* Prevent font scaling in landscape */
 }
 @font-face {
     font-family: 'Nearo_s';
@@ -1239,14 +1250,11 @@ body{
     height: 169px;
     box-sizing: border-box;
 }
-.support li h2 span{
+.support li h2 span {
     font-family: 'Nearo_s';
+    font-weight: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
-    -moz-text-size-adjust: none; /*Firefox*/
-    -ms-text-size-adjust: none;  /*Ie*/
-    -o-text-size-adjust: none; /*old versions of Opera*/
 }
 .sub_p2{
     width: 380px;
