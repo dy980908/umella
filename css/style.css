@@ -389,6 +389,7 @@ body {
     height: 800px;
     background-color: #EFEBFC;
     box-sizing: border-box;
+    position: relative;
     z-index: 1;
 }
 #sale_inner{
@@ -398,7 +399,6 @@ body {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    z-index: 1;
 }
 .s_left{
     width: 287px;
@@ -406,18 +406,15 @@ body {
     margin-right: 53px;
     padding-top: 101px;
     text-align: left;
-    z-index: 1;
 }
 .s_left h1{
     font-weight: 700;
     font-size: 30px;
     color: #6663DF;
     letter-spacing: -1px;
-    z-index: 1;
 }
 .s_left h1 img{
     margin-left: 7px;
-    z-index: 1;
     animation: fire 1s linear infinite;
 }
 @keyframes fire{
@@ -635,7 +632,7 @@ body {
 /* sale e*/
 #contents_wrap{
     width: 1320px;
-    height: 2301px;
+    height: 2236px;
     margin: 0 auto;
     box-sizing: border-box;
     padding-top: 140px;
@@ -669,17 +666,17 @@ body {
 #section1{
     height: 514px;
     box-sizing: border-box;
-    margin-bottom: 200px;
+    margin-bottom: 198px;
 }
 #section2{
     height: 514px;
     box-sizing: border-box;
-    margin-bottom: 200px;
+    margin-bottom: 198px;
 }
 #section3{
     height: 514px;
     box-sizing: border-box;
-    margin-bottom: 200px;
+    margin-bottom: 298px;
 }
 .sub_title{
     width: 500px;
@@ -921,12 +918,64 @@ body {
     margin-left: 7px;
 }
 /* Home Living e */
+.title4{
+    text-align: center;
+    font-family: 'Nearo_b';
+    font-weight: normal;
+    color: #333;
+    font-size: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+    -moz-text-size-adjust: none; /*Firefox*/
+    -ms-text-size-adjust: none;  /*Ie*/
+    -o-text-size-adjust: none; /*old versions of Opera*/
+    display: block;
+}
+.title4 a{
+    display: block;
+    transition-duration:0.5s;
+    width: 330px;
+    margin: 0 auto;
+    padding-bottom: 8px;
+}
+.title4 a:hover{
+    color: #6663DF;
+    transition-duration:0.5s;
+}
+.sub_title4{
+    margin: 0 auto;
+    width: 560px;
+    display: flex;
+    height: 18px;
+    justify-content: center;
+}
+.sub_title4 h2{
+    font-weight: 500;
+    font-size: 18px;
+    color: #666;
+    padding-right: 5px;
+    text-align: center;
+    line-height: 18px;
+    z-index: 1;
+}
+.sub_title img{
+    z-index: 1;
+    text-align: center;
+}
+
+
 #video_wrap{
     width: 1320px;
-    height: 680px;
+    height: 836px;
     margin: 0 auto;
     box-sizing: border-box;
-    background-color: #708DDF;
+}
+.video{
+    width: 1320px;
+    height: 680px;
+    box-sizing: border-box;
+    margin-top: 70px;
 }
 /* video e */
 #review_wrap{
