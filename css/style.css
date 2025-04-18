@@ -632,7 +632,7 @@ body {
 /* sale e*/
 #contents_wrap{
     width: 1320px;
-    height: 2236px;
+    height: 2235px;
     margin: 0 auto;
     box-sizing: border-box;
     padding-top: 140px;
@@ -959,21 +959,19 @@ body {
     line-height: 18px;
     z-index: 1;
 }
-.sub_title img{
+.sub_title4 img{
     z-index: 1;
     text-align: center;
 }
-
-
 #video_wrap{
     width: 1320px;
-    height: 836px;
+    height: 898px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 .video{
     width: 1320px;
-    height: 680px;
+    height: 742px;
     box-sizing: border-box;
     margin-top: 70px;
 }
